@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TapClash - The ultimate two-player tapping competition game. Challenge friends, compete online, and claim the global leaderboard. Available on Android and iOS.">
+    <meta name="keywords" content="tap game, multiplayer game, flutter app, gaming, competition">
+    <title>TapClash - Two-Player Tap Competition Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">⚡ TapClash</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gameplay">Gameplay</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">TAP CLASH</span>
+                </h1>
+                <p class="hero-subtitle">The Ultimate Two-Player Tapping Competition</p>
+                <p class="hero-description">
+                    Challenge your friends, compete against players worldwide, and claim your spot on the global leaderboard. 
+                    How many taps can you pull off in under 30 seconds?
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Download Now</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-graphic">
+                <div class="phone-mockup">
+                    <div class="screen-content">
+                        <div class="split-screen">
+                            <div class="player player-1">
+                                <span class="taps">245</span>
+                                <span class="label">TPS: 8.2</span>
+                            </div>
+                            <div class="player player-2">
+                                <span class="taps">189</span>
+                                <span class="label">TPS: 6.3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why You'll Love TapClash</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Local Multiplayer</h3>
+                    <p>Challenge friends on the same device. No internet needed. Perfect for competitive gaming sessions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Competition</h3>
+                    <p>Play online against players worldwide. Real-time synchronization keeps both players in perfect sync.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Live Leaderboard</h3>
+                    <p>Compete for the highest tap-per-second (TPS) score. Track your ranking in real-time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Turbo Mode</h3>
+                    <p>Unlock Turbo Mode when you hit 10 taps in under 1 second. Tap value multiplied by 1.5x!</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Smooth Performance</h3>
+                    <p>Built with FlutterFlame for ultra-responsive gameplay and fluid 60 FPS animations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Smart Notifications</h3>
+                    <p>Get instant alerts when opponents challenge you and when you're dethroned on the leaderboard.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gameplay Section -->
+    <section id="gameplay" class="gameplay">
+        <div class="container">
+            <h2>How to Play</h2>
+            <div class="gameplay-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Choose Your Mode</h3>
+                    <p>Play locally with a friend or challenge players online with Google Sign-In</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Tap Fast</h3>
+                    <p>Tap your half of the screen as fast as possible. Watch your TPS (Taps Per Second) counter in real-time</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Beat Your Opponent</h3>
+                    <p>Whoever gets the most taps before time runs out wins! Ties go to the last tap timestamp</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Climb the Leaderboard</h3>
+                    <p>Track your highest TPS score globally and compete to be #1. Rematch your rivals and build streaks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Modes Section -->
+    <section class="game-modes">
+        <div class="container">
+            <h2>Game Modes</h2>
+            <div class="modes-grid">
+                <div class="mode-card mode-local">
+                    <h3>Local Match</h3>
+                    <p>Play on one device with a friend. No internet required. Durations: 5, 10, 15, or 30 seconds.</p>
+                    <ul class="mode-features">
+                        <li>✓ Same device multiplayer</li>
+                        <li>✓ Offline play</li>
+                        <li>✓ Real-time TPS tracking</li>
+                        <li>✓ Instant results</li>
+                    </ul>
+                </div>
+                <div class="mode-card mode-online">
+                    <h3>Online Match</h3>
+                    <p>Challenge global players in real-time. Secure matchmaking and verified scores. Every match counts.</p>
+                    <ul class="mode-features">
+                        <li>✓ Global player pool</li>
+                        <li>✓ Real-time sync</li>
+                        <li>✓ Cloud leaderboard</li>
+                        <li>✓ Verified scores</li>
+                    </ul>
+                </div>
+                <div class="mode-card mode-daily">
+                    <h3>Daily Challenge</h3>
+                    <p>Solo tapping challenge against a daily target. Fixed 30-second round. Beat the daily goal for rewards.</p>
+                    <ul class="mode-features">
+                        <li>✓ Daily difficulty</li>
+                        <li>✓ Solo mode</li>
+                        <li>✓ Single-player TPS</li>
+                        <li>✓ Challenge tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Highlights -->
+    <section class="technical">
+        <div class="container">
+            <h2>Built for Performance</h2>
+            <div class="tech-content">
+                <div class="tech-item">
+                    <h3>🚀 Powered by Flutter & Flame</h3>
+                    <p>Ultra-smooth 60 FPS gameplay with frame-perfect tap detection. No lag, no compromise.</p>
+                </div>
+                <div class="tech-item">
+                    <h3>🔐 Secure & Private</h3>
+                    <p>Enterprise-grade authentication with Google Sign-In. Your data is encrypted and protected.</p>
+                </div>
+                <div class="tech-item">
+                    <h3>⚡ Zero-Latency Multiplayer</h3>
+                    <p>Real-time synchronization via Supabase Realtime. Live tap updates keep matches fair and exciting.</p>
+                </div>
+                <div class="tech-item">
+                    <h3>📊 Fair & Verified</h3>
+                    <p>Server-side score verification prevents cheating. All leaderboard positions are audited and legitimate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2>Get TapClash Today</h2>
+            <p class="download-subtitle">Available on iOS and Android</p>
+            <div class="download-buttons">
+                <button class="btn btn-apple">
+                    <span>🍎</span> App Store
+                </button>
+                <button class="btn btn-google">
+                    <span>🤖</span> Google Play
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TapClash</h4>
+                    <p>The ultimate two-player tapping competition game.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#gameplay">How to Play</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">Discord</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TapClash. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
